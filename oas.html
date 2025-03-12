@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sistema OAS - Automatización de Oficinas. Optimiza tu trabajo administrativo con nuestra solución integral.">
+    <meta name="keywords" content="OAS, Automatización de Oficinas, Gestión Documental, Productividad Empresarial">
+    <title>Sistema OAS - Automatización de Oficinas</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #e0f2e9; 
+            color: #2c4c3b; 
+            text-align: center;
+        }
+        header {
+            background: #a8d5ba; 
+            color: white;
+            padding: 20px;
+            font-size: 40px;
+            font-weight: bold; 
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        .container {
+            width: 90%; 
+            max-width: 1200px; 
+            margin: 40px auto;
+            padding: 30px; 
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+            animation: slideUp 1.5s ease-in-out;
+        }
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            padding: 1px; 
+            background: #c8e6d1;
+            margin-bottom: 20px; 
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .box:hover {
+            transform: scale(1.02);
+            background: #b5d9c4; 
+        }
+        .text-content {
+            width: 100%;
+            padding: 15px;
+            text-align: justify;
+        }
+        .image-container {
+            width: 100%;
+            text-align: center;
+        }
+        .image-container img {
+            width: 100%;
+            max-width: 350px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background: #a8d5ba; 
+            color: rgb(119, 119, 119);
+            padding: 15px;
+            font-size: 14px;
+            text-align: center;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+        }
+        @media (min-width: 768px) {
+            .box {
+                flex-direction: row;
+            }
+            .box:nth-child(even) {
+                flex-direction: row-reverse;
+            }
+            .text-content {
+                width: 50%;
+            }
+            .image-container {
+                width: 50%;
+            }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideUp {
+            from { transform: translateY(30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>Sistema OAS - Automatización de Oficinas</header>
+    <div class="container">
+        <section class="box">
+            <div class="text-content">
+                <h2>¿Qué es un Sistema OAS?</h2>
+                <p>Los Sistemas de Automatización de Oficinas (OAS) optimizan el trabajo administrativo mediante software especializado, mejorando la eficiencia organizacional. Facilitan la comunicación entre los empleados, la gestión documental y la automatización de tareas repetitivas, lo que incrementa la productividad y reduce errores humanos.</p>
+                <p>Además, permiten la integración de múltiples herramientas en una única plataforma, agilizando los procesos internos de la empresa y proporcionando un entorno más colaborativo y seguro.</p>
+            </div>
+            <figure class="image-container">
+                <img src="oas.png" alt="Sistema OAS en acción" loading="lazy">
+            </figure>
+        </section>
+        <section class="box">
+            <figure class="image-container">
+                <img src="office-automation.png" alt="Características del sistema OAS" loading="lazy">
+            </figure>
+            <div class="text-content">
+                <h2>Principales Características</h2>
+                <ul>
+                    <li>Automatización de procesos administrativos</li>
+                    <li>Gestión eficiente de documentos y comunicación</li>
+                    <li>Integración con herramientas digitales</li>
+                    <li>Almacenamiento seguro en la nube</li>
+                    <li>Mejora de la productividad empresarial</li>
+                    <li>Acceso remoto a los datos y documentos</li>
+                </ul>
+            </div>
+        </section>
+        <section class="box">
+            <div class="text-content">
+                <h2>Ventajas y Desventajas</h2>
+                <h3>Ventajas</h3>
+                <ul>
+                    <li>Optimización del tiempo y recursos</li>
+                    <li>Mayor organización y acceso a la información</li>
+                    <li>Facilita el trabajo colaborativo</li>
+                    <li>Reduce costos operativos a largo plazo</li>
+                    <li>Mayor seguridad en la protección de datos</li>
+                </ul>
+                <h3>Desventajas</h3>
+                <ul>
+                    <li>Costo inicial elevado</li>
+                    <li>Dependencia de la tecnología</li>
+                    <li>Requiere capacitación especializada</li>
+                    <li>Posible resistencia al cambio por parte del personal</li>
+                </ul>
+            </div>
+            <figure class="image-container">
+                <img src="buenomalo.jpg" alt="Ventajas y desventajas de OAS" loading="lazy">
+            </figure>
+        </section>
+        <section class="box">
+            <figure class="image-container">
+                <img src="money.webp" alt="Costos de implementación de OAS" loading="lazy">
+            </figure>
+            <div class="text-content">
+                <h2>Costos de Implementación</h2>
+                <p>Los costos varían según la empresa y sus necesidades, incluyendo inversión en software, hardware y capacitación del personal. Además, pueden incluir gastos en mantenimiento y actualizaciones, así como soporte técnico especializado para garantizar el correcto funcionamiento del sistema a largo plazo.</p>
+                <p>También es importante considerar costos ocultos como la migración de datos, adaptación de infraestructura y tiempo de implementación, los cuales pueden afectar la rentabilidad inicial.</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        Diego Mendoza Contreras - Facultad de Contaduría y Administración - UNAM
+    </footer>
+</body>
+</html>
